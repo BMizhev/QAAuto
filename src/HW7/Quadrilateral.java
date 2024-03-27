@@ -14,9 +14,7 @@ public class Quadrilateral extends Figure{
         side3 = sideC;
         side4 = sideD;
     }
-
     public double quadrilateralPerimeter(){
-
         return side1+side2+side3+side4;
     }
 

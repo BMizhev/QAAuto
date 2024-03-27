@@ -6,11 +6,9 @@ public class Rectangle extends Quadrilateral{
 
     }
     public double getQuadrilateralPerimeter(){
-
         return quadrilateralPerimeter();
     }
     public double RectangularArea(){
-
         return side1*side2;
     }
 }

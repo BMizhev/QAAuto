@@ -6,11 +6,9 @@ public class Square extends Quadrilateral {
 
     }
     public double getQuadrilateralPerimeter(){
-
         return quadrilateralPerimeter();
     }
     public double squareArea(){
-
         return side1*side2;
     }
 }

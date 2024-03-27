@@ -6,13 +6,10 @@ public class Parallelogram extends Quadrilateral {
         super(sideA, sideB, sideC, sideD);
         this.height = height;
 
-    }
-    public double getQuadrilateralPerimeter(){
-
+    }public double getQuadrilateralPerimeter(){
         return quadrilateralPerimeter();
-    }
-    public double parallelogramArea(){
 
+    }public double parallelogramArea(){
         return side1*height;
     }
 }
