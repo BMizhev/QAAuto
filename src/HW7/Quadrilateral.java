@@ -1,5 +1,8 @@
 package HW7;
 
+import jdk.jfr.Experimental;
+
+@Experimental
 public class Quadrilateral extends Figure{
     protected double side1;
     protected double side2;
@@ -15,6 +18,7 @@ public class Quadrilateral extends Figure{
         side4 = sideD;
     }
     public double quadrilateralPerimeter(){
+
         return side1+side2+side3+side4;
     }
 
