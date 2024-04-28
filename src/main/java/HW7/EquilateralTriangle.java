@@ -7,9 +7,11 @@ public class EquilateralTriangle extends Triangle{
       super(side, side, side);
   }
 public double getTrianglePerimeter(){
+
       return trianglePerimeter();
     }
 public double equilateralArea(){
+
       return ((sideA*sideA)* sqrt(3))/4;
     }
 }
